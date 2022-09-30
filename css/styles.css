@@ -1,0 +1,236 @@
+:root {
+   --main-color: #34b0be;
+   --secondary-color: #ff4f6f;
+   --alt-color: #060314;
+   --background-color: #FFFFFF;
+ }
+
+
+
+body {
+   /* display: flex; */
+   width: 100%;
+   height: 100%; 
+   /* font-fstyleamily: "Rubik", sans-serif; */
+   /* background-color: #e5e5e5; */
+}
+
+h1{
+   font-size: 9.375rem;
+}
+
+.home{
+   color: var(--main-color);
+}
+
+nav a{
+   color: var(--alt-color)
+}
+
+.main{
+   display: flex;
+   justify-content: space-between; 
+   width: 100%;
+   background-color: pink;
+}
+
+.foto{
+   width: 100%;
+   height: 100%;
+   background-image: url(../assets/Vectores/Vector.svg);
+   display: flex;
+   justify-content: center;
+   /* box-sizing: 100%; */
+   background-size: cover;
+   /* background-repeat: no repeat; */   
+}
+
+.foto img{
+   width: 50%;
+   /* height: 100%; */
+   /* display: flex; */
+   /* justify-content: flex-start; */
+   /* position: relative;  */
+   /* padding-right: 100px; */
+}
+.info{
+   width: 50%;
+   padding-left: 20px;
+}
+
+.mis-redes{
+   display: flex;
+   justify-content: space-around;
+   /* font-size: 200px; */
+}
+
+.nav-desktop div img{
+   height: 200px;
+   padding-bottom: 25px;
+}
+
+.nav-desktop {
+   display: flex;
+   justify-content: space-between;
+   padding: 20px 40px 0 40px;  
+}
+
+nav a{
+   text-decoration: none;
+   margin-left: 40px;
+}
+
+.color {
+   color: var(--secondary-color);
+   padding-top: 30px;
+}
+
+h2 .fondito{
+   background-position: right;
+}
+.fondito{
+   background-image: url(../assets/Vectores/Decor.svg);
+   background-repeat: no-repeat ;
+   border-top: 30px;
+   /* display: flex;
+   justify-content: space-between; */
+}
+
+/* .items{
+      border: 1px solid green;
+   border-radius: 5px; 
+   /* background-color: aqua;
+   /* aca si quiero ver tiene que ir si o si el border en especial
+   el solid  el radios y el color es solo para mejor visualizacion*/
+
+/* 
+.one { 
+   grid-row: 1/5;
+   height: 600px;
+}
+
+.four{
+   grid-row: 3/5;
+   grid-column: 2/3;
+}
+
+
+
+
+.items .four {
+   display: flex;
+   justify-content: space-between;
+}  */
+
+.container{
+   align-content: center;
+}
+
+.cards-container{
+display: flex;
+gap: 15px;
+width: 100%;
+margin-left: 25px; 
+display: flex;
+justify-content: space-around;
+}
+
+article div{
+   background-color: var(--background-color);
+}
+
+button{
+   border-top-right-radius: 20px 20px;
+   border-bottom-right-radius: 20px 20px;
+   width: 60%;
+   background-color: var(--secondary-color);
+   padding: 15px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+h1{
+   color: var(--alt-color)
+}
+
+.logos{
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.underline{
+   width: 100%;
+   height: 5px;
+   background-color: var(--main-color);
+}
+
+.nro{
+   font-size: 30px;
+   color: var(--main-color);
+   padding-top: 10px;
+   /* align-items: center; */
+   
+}
+
+/* .grid-acerca-de-mi{
+   grid-column: 2 1fr;
+   grid-row: auto;
+   display: flex;
+   justify-content: space-between;
+   margin-top: 90px;
+   padding-top: 40px;
+   
+} */
+
+.grid-two{
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+}
+
+/* .grids{
+   border-right: 20px;
+   flex-direction: row;
+   align-items: center;
+} */
+
+section{
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+}
+
+section > img{
+   width: 100vw;
+   justify-content: center;
+   width: 25%;
+   background-color: var(--background-color);
+}
+
+/* .servicios{ */
+   /* display: flex; */
+   /* justify-content: space-between; */
+/* } */
+/* .contacto{
+   background-color: var(--background-color);
+} */
+
+ /* .margen-body{
+   width: 100vw;
+ } */
+/* 
+ .borde{
+   display: flex;
+   justify-content: space-between;
+}  */
+/* 
+.grid {
+   width: 100vw;
+   height: 700px;
+   display: grid;
+   grid-template: repeat(4, 1fr) / repeat(2, 1fr);
+   gap: 10px 15px; */
+   /* si o si va todo estoporque aca se forma el grid y */
+   /* con el gap da los espacios */
+/* }  */
