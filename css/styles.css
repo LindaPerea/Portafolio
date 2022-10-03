@@ -351,8 +351,10 @@ section img{
    align-items: center; */
 }
 
-.footer{
-   height: 200 px;
+footer{
+   margin-top: 50px;
+   margin-bottom: 50px;
+   text-align: center;
 
 }
 
